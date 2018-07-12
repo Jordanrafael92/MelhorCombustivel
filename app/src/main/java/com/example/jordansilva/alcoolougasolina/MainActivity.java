@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate( Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+            setContentView(R.layout.activity_main);
 
         editPrecoEtanol = findViewById(R.id.editPrecoEtanol);
         editPrecoGasolina = findViewById(R.id.editPrecoGasolina);
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             textResultado.setText("Melhor utilizar Gasolina!");
 
         }else{
-            
+
             textResultado.setText("Melhor utilizar Álcool!");
 
         }
